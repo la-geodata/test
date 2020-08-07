@@ -1,0 +1,332 @@
+{
+  "title": "L.A. GéoData - version 17/07/2020",
+  "description": "",
+  "type": "folder",
+  "children": [{
+      "title": "Cadastre ETALAB",
+      "description": "Couches du cadastre ETALAB",
+      "type": "folder",
+      "children": [{
+          "title": "Communes du cadastre",
+          "description": "Communes du cadastre ETALAB de Janvier 2020",
+          "type": "wms_layer",
+          "metadata_url": "",
+          "params": {
+            "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+            "name": "1993a4a4-b532-11ea-b75d-05816b11afe5",
+            "format": "image/png",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+              "title": "Sections du cadastre",
+              "description": "Sections du cadastre ETALAB de Janvier 2020",
+              "type": "wms_layer",
+              "metadata_url": "",
+              "params": {
+                "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+                "name": "4c89cd72-b54d-11ea-b75d-05816b11afe5",
+                "format": "image/png",
+                "srs": "EPSG:2154"
+              }
+            },
+            {
+                  "title": "Parcelles du cadastre",
+                  "description": "Parcelles du cadastre ETALAB de Janvier 2020",
+                  "type": "wms_layer",
+                  "metadata_url": "",
+                  "params": {
+                    "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+                    "name": "517f075d-b54d-11ea-b75d-05816b11afe5",
+                    "format": "image/png",
+                    "srs": "EPSG:2154"
+                  }
+                },
+		{
+          "title": "Bâtiments du cadastre",
+          "description": "Bâtiments du cadastre ETALAB de Janvier 2020",
+          "type": "wms_layer",
+          "metadata_url": "",
+          "params": {
+            "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+            "name": "527bddf6-b54d-11ea-b75d-05816b11afe5",
+            "format": "image/png",
+            "srs": "EPSG:2154"
+          }
+        }
+		]
+  },
+  {
+    "title": "Occupation des sols de Loire-Atlantique",
+    "description": "Occupation des sols de Loire-Atlantique (Département Loire-Atlantique)",
+    "type": "folder",
+    "children": [{
+        "title": "BDMOS 2016 - Niveau 1",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "ae67835b-c04f-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "BDMOS 2016 - Niveau 2",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "d7c9e177-c050-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "BDMOS 2016 - Niveau 3",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "cb68d9be-c059-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      }
+  ]
+},
+{
+  "title": "Réseaux de Loire-Atlantique",
+  "description": "Réseaux de Loire-Atlantique",
+  "type": "folder",
+  "children": [
+    {
+      "title": "Réseaux éclairage public de Loire-Atlantique",
+      "description": "Réseaux éclairage public de Loire-Atlantique",
+      "type": "folder",
+      "children": [{
+        "title": "Tronçons_A_INVESTIGUER_PORNIC_AGGLO_PAYS_DE_RETZ",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "f4262696-c760-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "Armoires_PORNIC_AGGLO_PAYS_DE_RETZ",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "f4211d82-c760-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "Supports_PORNIC_AGGLO_PAYS_DE_RETZ",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "f420331b-c760-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "Supports_A_INVESTIGUER_PORNIC_AGGLO_PAYS_DE_RETZ",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "f4200c0a-c760-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "Foyers_PORNIC_AGGLO_PAYS_DE_RETZ",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "f420cf61-c760-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "Tronçons_PORNIC_AGGLO_PAYS_DE_RETZ",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "f427ad3f-c760-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "Connexions_PORNIC_AGGLO_PAYS_DE_RETZ",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "f4200c09-c760-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },{
+        "title": "Connexions_A_INVESTIGUER_PORNIC_AGGLO_PAYS_DE_RETZ",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+          "name": "f4208140-c760-11ea-b75d-05816b11afe5",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      } ]
+      },
+      {
+        "title": "Réseaux électricité de Loire-Atlantique",
+        "description": "Réseaux électricité de Loire-Atlantique",
+        "type": "folder",
+        "children": [{
+          "title": "Lignes aériennes BT",
+          "description": "",
+          "type": "wms_layer",
+          "metadata_url": "",
+          "params": {
+            "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+            "name": "bb35e25a-c824-11ea-b75d-05816b11afe5",
+            "format": "image/png",
+            "srs": "EPSG:2154"
+          }
+        },{
+          "title": "Lignes souterraines BT",
+          "description": "",
+          "type": "wms_layer",
+          "metadata_url": "",
+          "params": {
+            "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+            "name": "f5e6e915-c760-11ea-b75d-05816b11afe5",
+            "format": "image/png",
+            "srs": "EPSG:2154"
+          }
+        },{
+          "title": "Lignes souterraines HTA",
+          "description": "",
+          "type": "wms_layer",
+          "metadata_url": "",
+          "params": {
+            "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+            "name": "2a07a2ed-c825-11ea-b75d-05816b11afe5",
+            "format": "image/png",
+            "srs": "EPSG:2154"
+          }
+        },
+        {
+          "title": "Lignes aériennes HTA",
+          "description": "",
+          "type": "wms_layer",
+          "metadata_url": "",
+          "params": {
+            "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+            "name": "2bc61bf2-c825-11ea-b75d-05816b11afe5",
+            "format": "image/png",
+            "srs": "EPSG:2154"
+          }
+        },{
+          "title": "Postes source et Postes de Répartition HTA/HTA",
+          "description": "",
+          "type": "wms_layer",
+          "metadata_url": "",
+          "params": {
+            "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+            "name": "f5e673e4-c760-11ea-b75d-05816b11afe5",
+            "format": "image/png",
+            "srs": "EPSG:2154"
+          }
+        },{
+          "title": "Postes HTA/BT",
+          "description": "",
+          "type": "wms_layer",
+          "metadata_url": "",
+          "params": {
+            "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+            "name": "f5e673e3-c760-11ea-b75d-05816b11afe5",
+            "format": "image/png",
+            "srs": "EPSG:2154"
+          }
+        } ]
+        },
+        {
+          "title": "Réseaux d'eau potable de Loire-Atlantique",
+          "description": "Réseaux d'eau potable de Loire-Atlantique",
+          "type": "folder",
+          "children": [{
+            "title": "Tronçons eau potable",
+            "description": "",
+            "type": "wms_layer",
+            "metadata_url": "",
+            "params": {
+              "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+              "name": "f22acb8c-c760-11ea-b75d-05816b11afe5",
+              "format": "image/png",
+              "srs": "EPSG:2154"
+            }
+          },{
+            "title": "Hydrant",
+            "description": "",
+            "type": "wms_layer",
+            "metadata_url": "",
+            "params": {
+              "url": "https://dataservices.la-geodata.fr/adws/service/wms/fb5ca856-b531-11ea-b75d-05816b11afe5?VERSION=1.1.1&SERVICE=WMS&REQUEST=GetCapabilities",
+              "name": "f22af29d-c760-11ea-b75d-05816b11afe5",
+              "format": "image/png",
+              "srs": "EPSG:2154"
+            }
+          } ]
+          }
+]
+},
+  {
+    "title": "Photographie aérienne de Loire-Atlantique",
+    "description": "Orthophotgraphie",
+    "type": "folder",
+    "children": [{
+        "title": "Orthophoto 2016",
+        "description": "",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://services.vuduciel.loire-atlantique.fr/geoserver/ows",
+          "name": "cg44:ortho44-2016",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      },
+  {
+        "title": "Orthophoto 2013",
+        "description": "Bâtiments du cadastre ETALAB de Janvier 2020",
+        "type": "wms_layer",
+        "metadata_url": "",
+        "params": {
+          "url": "https://datacarto.geopal.org/cgi-bin/mapserv",
+          "name": "BDORTHO201344",
+          "format": "image/png",
+          "srs": "EPSG:2154"
+        }
+      }
+  ]
+}
+  ]
+}
